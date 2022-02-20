@@ -1,0 +1,29 @@
+{
+  "name": "branas-ecommerce",
+  "version": "1.0.0",
+  "description": "branas project to learn clean code",
+  "main": "main.ts",
+  "scripts": {
+	 "start": "ts-node main.ts",
+    "test": "tsc && jest ./dist",
+    "lint": "eslint ./* --fix && eslint ./src/**/*.ts --fix"
+  },
+  "keywords": [
+    "branas",
+    "typescript",
+    "jest",
+    "tdd",
+	 "e-commerce"
+  ],
+  "author": "Renan Correia",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "eslint": "^8.9.0",
+    "jest": "^27.5.1"
+  }
+}
